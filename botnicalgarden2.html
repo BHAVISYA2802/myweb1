@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botanical Garden</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #4CAF50;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position:relative;
+            bottom:0;
+            width:100%;
+        }
+
+        .map-container{
+            width: 100%;
+            height: 400px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to  Botanical Garden</h1>
+        <p>Explore the beauty of nature with us.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#collections">Collections</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit Us</a>
+        <a href="#map">Map</a>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About Our Garden</h2>
+            <p> Botanical garden is a sanctuary of diverse plant life, dedicated to conservation, education, and enjoyment. We strive to preserve rare and endangered species while providing a peaceful retreat for visitors.</p>
+            <p>Founded in (1296–1316), our garden spans Hauz Khas acres and features a variety of themed gardens, including a rose garden, a tropical conservatory, and a medicinal herb garden.</p>
+        </section>
+
+        <section id="collections" class="section">
+            <h2>Our Collections</h2>
+            <ul>
+                <li><strong>Rose Garden:</strong> A vibrant display of various rose species and hybrids.</li>
+                <li><strong>Tropical Conservatory:</strong> A lush greenhouse showcasing tropical plants from around the world.</li>
+                <li><strong>Medicinal Herb Garden:</strong> A collection of herbs used in traditional and modern medicine.</li>
+                <li><strong>Cactus and Succulent Garden:</strong> A dry garden with diverse cacti and succulents.</li>
+                <li><strong>Native Plant Garden:</strong> Showcases the plants indigenous to the local region.</li>
+            </ul>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <img src="images/rose.jpg" class="picture" >
+
+                <img src="images/troical.jpg" class="picture" >
+                <img src="images/medicine.jpg" class="picture" >
+               <img src="images/cactus.jpg" class="picture" >
+                <img src="images/native.jpg" class="picture" >
+               <img src="images/garden.jpg" class="picture" >
+            </div>
+        </section>
+
+        <section id="visit" class="section">
+            <h2>Plan Your Visit</h2>
+            <p><strong>Opening Hours:</strong>
+
+
+
+Mon: 5:40 AM–11:06 PM</p>
+Tue: 5:40 AM–11:06 PM</p>
+Wed: 5:40 AM–11:06 PM</p>
+Thu: 5:40 AM–11:06 PM</p>
+Fri: 5:40 AM–11:06 PM</p> 
+Sat: 5:40 AM–11:06 PM</p>
+Sun: 5:40 AM–11:06 PM</p>
+
+          <p><strong>Admission:</strong> ₹20 per person for Indians and ₹250 per person for foreign tourists.</p>
+            <p><strong>Location:</strong> Post Office Hauz Khas SO (Sub-Office), South West Delhi, Delhi, India (IN), Pin Code: 110016</p>
+            <p><strong>Contact:</strong> 011-26514725 | hauzkhas2802@gmail.com</p>
+            <p>We offer guided tours, educational programs, and special events. Check our calendar for upcoming activities.</p>
+        </section>
+        <section id="map" class="section">
+            <h2>Location Map</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d[your_latitude]!2d[your_longitude]!3d[your_zoom]!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDM3JzAwLjAiTiA4MsKwMzAnMDAuMCJF!5e0!3m2!1sen!2sus!4v1678886400000!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Our Botanical Garden. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
